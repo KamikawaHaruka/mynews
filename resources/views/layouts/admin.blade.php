@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, inital-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <!-- CSRF Token -->
          {{-- 後の章で説明します　--}}
@@ -23,9 +23,9 @@
         
         <!-- Styles -->
         {{-- Laravel標準で用意されているCSSを読み込みます　--}}
-        <link href="{{ secure_asset('css/app.css') }}" rel="styleseet">
+        <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
         {{-- この章の後半で作成するCSSを読み込みます --}}
-        <link href="{{ secure_asset('css/admin/css')}}" rel="styleseet">
+        <link href="{{ secure_asset('css/admin/css')}}" rel="stylesheet">
     </head>
     
     <body>
@@ -53,7 +53,7 @@
                     </div>
                 </div>
             </nav>
-            {{-- ここまでナビゲーションバー　--}}
+            {{-- ここまでナビゲ��ションバー　--}}
             
             <main class="py-4">
                 {{-- コンテンツをここに入れるため、@yieldで空けておきます。　--}}
